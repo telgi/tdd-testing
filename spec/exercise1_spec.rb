@@ -11,3 +11,9 @@ describe 'sort' do
     expect(sort([1, 3, 5, 4, 2])).to eq [1, 2, 3, 4, 5]
   end
 end
+
+describe 'sort_and_add_one' do
+  it 'arranges array items in numerical order and then adds one to each array item' do
+    expect(sort_and_add_one([1, 3, 5, 4, 2])).to eq [2, 3, 4, 5, 6]
+  end
+end
