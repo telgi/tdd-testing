@@ -17,3 +17,9 @@ def sort_and_add_one(array)
     num += 1
   end
 end
+
+def sum_of(array)
+  array.inject(:+)
+end
+
+sum_of([1, 2, 3, 4, 5])

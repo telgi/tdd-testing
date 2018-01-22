@@ -20,6 +20,6 @@ end
 
 describe 'sum_of' do
   it 'iterates through array and returns the sum of all elements' do
-    expect(sum_of([1, 2, 3, 4, 5])).to eq [15]
+    expect(sum_of([1, 2, 3, 4, 5])).to eq 15
   end
 end
