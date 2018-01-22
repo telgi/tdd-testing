@@ -17,3 +17,9 @@ describe 'sort_and_add_one' do
     expect(sort_and_add_one([1, 3, 5, 4, 2])).to eq [2, 3, 4, 5, 6]
   end
 end
+
+describe 'sum_of' do
+  it 'iterates through array and returns the sum of all elements' do
+    expect(sum_of([1, 2, 3, 4, 5])).to eq [15]
+  end
+end
