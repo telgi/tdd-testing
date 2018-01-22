@@ -11,3 +11,9 @@ def sort(array)
 end
 
 sort([1, 3, 5, 4, 2])
+
+def sort_and_add_one(array)
+  array.sort.map! do |num|
+    num += 1
+  end
+end
