@@ -23,3 +23,9 @@ def sum_of(array)
 end
 
 sum_of([1, 2, 3, 4, 5])
+
+def twice_the_sum_of(array)
+  array.inject(:+) * 2
+end
+
+twice_the_sum_of([1, 2, 3, 4, 5])
